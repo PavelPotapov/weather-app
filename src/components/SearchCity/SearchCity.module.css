@@ -1,0 +1,69 @@
+.cities__search {
+    width: 200px;
+    outline: none;
+    border: 1 px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.cities {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.cities__list {
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #A7C4D4;
+    min-height: min-content;
+    max-height: 200px;
+    min-width: 100px;
+}
+
+
+
+.cities__list>ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.cities__list ::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+.cities__list ::-webkit-scrollbar-track {
+    background: #EAEEEF;
+    /* цвет дорожки */
+    border-radius: 20px;
+}
+
+.cities__list ::-webkit-scrollbar-thumb {
+    background-color: #EAEEEF;
+    /* цвет плашки */
+    border-radius: 20px;
+    /* закругления плашки */
+    border: 2px solid #4F6C77;
+    /* padding вокруг плашки */
+}
+
+.cities__item:hover {
+    background-color: #F6E8DA;
+    border-radius: 10px;
+}
+
+.cities__item:active {
+    background-color: #F6E8DA;
+}
+
+.cities__item {
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.cities__item:not(:first-child) {
+    padding-top: 10px;
+}
